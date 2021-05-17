@@ -12,7 +12,7 @@ let discovery = AVCaptureDevice.DiscoverySession(
 let devices = discovery.devices
 
 //
-// Code from here is all for printing device list as json format
+// All the code below is just for outputting in json format.
 //
 struct Device: Codable {
     var modelID: String
